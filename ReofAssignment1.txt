@@ -1,0 +1,37 @@
+//
+//  main.swift
+//  Assignment1-1
+//
+//  Created by REOF ALMESHARI on 04/08/2022.
+//
+
+import Foundation
+
+var number1 : Int = 0
+var number2 : Int = 0
+
+print("What is the first number?")
+if let userNum1 = readLine()
+{
+    // in case user enter nill value by default program will use 1
+    number1 = Int(userNum1) ?? 1
+  
+}
+print("What is the secound number?")
+if let userNum2 = readLine() {
+    // in case user enter nill value by default program will use 1
+    number2 = Int(userNum2) ?? 1
+   
+  
+}
+
+ 
+
+    print("---------------------")
+    print("\(number1) + \(number2) = \(number1  + number2)")
+    print("\(number1) - \(number2) = \(number1  - number2)")
+    print("\(number1) * \(number2) = \(number1  * number2)")
+    print("\(number1) / \(number2) = \(number1  / number2)")
+
+
+

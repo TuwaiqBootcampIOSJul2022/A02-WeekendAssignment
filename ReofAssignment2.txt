@@ -1,0 +1,13 @@
+// ------------------- Assignment 2 ------------------------------------
+
+
+var seconds = 0
+
+print("Please insert the seconds")
+if let enterdSecounds = readLine() {
+    seconds = Int(enterdSecounds) ?? 0
+}
+var minutes = seconds / 60
+var sec = seconds - (minutes * 60)
+print("\(seconds) seconds is \(minutes) min \(sec) sec")
+

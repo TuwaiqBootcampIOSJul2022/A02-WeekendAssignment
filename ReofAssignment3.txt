@@ -1,0 +1,16 @@
+var height = 0
+var width  = 0
+
+print("please enter the height of the rectangle:")
+
+if let enterHeight = readLine() {
+    height = Int(enterHeight) ?? 0
+}
+print("please enter the width of the rectangle:")
+
+if let enterWidth = readLine() {
+    width = Int(enterWidth) ?? 0
+}
+var rectangleArea = height * width
+print("The calculated area of the rectangle is: \(rectangleArea)")
+
