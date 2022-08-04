@@ -1,0 +1,27 @@
+// ------------------- Assignment 4 ------------------------------------
+
+/* If the user's is older or equal to 18 years old "You can get a driver's 
+license"
+ 
+ If the user's age is under 18 years old "Sorry, you can't get a driver's 
+license"
+
+*/
+
+var age = 0
+print("Welcome to Driving license App ")
+print("Please Enter your Age : ")
+
+if let userAge = readLine() {
+    age = Int(userAge) ?? 0
+}
+
+
+if age >= 18 && age <= 60 {
+    print("You can get a driver's license")
+}else if age < 18 {
+    print("Sorry, you can't get a driver's license")
+}else {
+    print("Please take care of your self and get Uber if you want to go ")
+}
+
