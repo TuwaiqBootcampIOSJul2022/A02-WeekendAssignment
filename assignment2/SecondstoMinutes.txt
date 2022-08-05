@@ -1,0 +1,21 @@
+import Foundation
+
+var seconds:Float
+
+repeat {
+    
+    print("Please insert the seconds: ")
+    seconds = Float(readLine()!)!
+    
+} while(seconds < 0)
+
+let minute = seconds / 60
+
+if minute > 1 {
+    
+    print("\(seconds) seconds is \(minute) minutes")
+    
+} else {
+    
+    print("\(seconds) seconds is \(minute) minute")
+}

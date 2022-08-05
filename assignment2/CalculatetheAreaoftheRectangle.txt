@@ -1,0 +1,21 @@
+import Foundation
+
+var heightRectangle:Int
+
+var widthRectangle:Int
+
+repeat {
+    
+    print("Please enter the height of the rectangle: ")
+    heightRectangle = Int(readLine()!)!
+    
+} while(heightRectangle < 0)
+
+repeat {
+    
+    print("Please enter the width of the rectangle: ")
+    widthRectangle = Int(readLine()!)!
+    
+} while(widthRectangle < 0)
+
+print("the calculated area of the rectangle is: \(heightRectangle * widthRectangle)")

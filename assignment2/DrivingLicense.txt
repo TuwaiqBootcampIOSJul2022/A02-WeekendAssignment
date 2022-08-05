@@ -1,0 +1,19 @@
+import Foundation
+
+var driverAge:Int
+
+repeat {
+    
+    print("Please enter the driver age: ")
+    driverAge = Int(readLine()!)!
+    
+} while(driverAge < 0)
+
+if driverAge >= 18 {
+    
+    print("You can get a driver's license")
+    
+} else {
+    
+    print("Sorry, you can't get a driver's license")
+}

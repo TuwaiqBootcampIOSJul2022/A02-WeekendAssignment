@@ -1,0 +1,14 @@
+import Foundation
+
+// Q1
+
+print("What is the first number ? ")
+let firstNumber = Int(readLine()!)
+
+print("What is the second number? ")
+let secondNumber = Int(readLine()!)
+
+print("\(firstNumber!) + \(secondNumber!) = \(firstNumber! + secondNumber!)")
+print("\(firstNumber!) - \(secondNumber!) = \(firstNumber! - secondNumber!)")
+print("\(firstNumber!) * \(secondNumber!) = \(firstNumber! * secondNumber!)")
+print("\(firstNumber!) / \(secondNumber!) = \(firstNumber! / secondNumber!)")
