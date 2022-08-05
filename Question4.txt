@@ -1,0 +1,1 @@
+import Foundationprint("Enter your age:")var age = readLine()var Age = Int(age!)if(Age! >= 18){    print("You can get a driver's license")}else {    print("Sorry, you can't get a driver's license")}
