@@ -1,0 +1,1 @@
+import Foundationprint("Please enter the height of the rectangle:")var height = readLine()var Height = Int(height!)print("Please enter the width of the rectangle:")var width = readLine()var Width = Int(width!)var RectangleArea = Height! * Width!print("The calculated area of the rectangle is: \(RectangleArea)")
