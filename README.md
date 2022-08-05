@@ -2,6 +2,7 @@
 
 ## 1- Assignment🚀
 ### Simple Math
+
 Write a Swift program that prompts two numbers from the user and then performs basic arithmetic operations as shown in the example output
 
 #### Example📑
