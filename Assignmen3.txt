@@ -1,0 +1,14 @@
+Assignmen3
+import Foundation
+
+print("please enter the height of the rectangle:")
+var height = Int(readLine()!)!
+
+print("please enter the width of the rectangle:")
+var width = Int(readLine()!)!
+
+var calculatedRectangle =  (height * width)
+
+print("Entered height:", height)
+print("Entered Width:", width)
+print("he calculated area of the rectangle is: ", calculatedRectangle)

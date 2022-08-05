@@ -1,0 +1,26 @@
+
+Assignmen2
+import Foundation
+
+ var inputseconds:Double
+
+ repeat {
+
+     print("plees insert Second")
+     
+     inputseconds = Double(readLine()!)!
+
+ } while(inputseconds < 0)
+
+
+ let inputminute = inputseconds / 60
+
+ if inputminute > 1 {
+
+     print("\(inputseconds) inputseconds \(inputminute) inputminute")
+
+ } else {
+
+     print("\(inputseconds) inputseconds \(inputminute) inputminute")
+ }
+

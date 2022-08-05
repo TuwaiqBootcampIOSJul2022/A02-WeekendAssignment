@@ -1,0 +1,18 @@
+
+Assignmen1
+import Foundation
+
+print("What is the first number?")
+ var  Firstnumber : String = readLine()!
+
+print("What is the second number?")
+var Secondnumber : String = readLine()!
+ let value1 = String(Firstnumber )
+let value2 = String(Secondnumber)
+
+
+print("\(value1) + \(  value2)=\(value1+value2 )")
+print("\(value1) - \(  value2)=\(value1-value2 )")
+print("\(value1)* \(  value2)=\(value1*value2 )")
+print("\(value1) / \(  value2)=\(value1/value2 )")
+
