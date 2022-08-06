@@ -1,0 +1,11 @@
+import Foundation
+
+print("please enter the height of the rectangle:")
+let height = Int(readLine()!)
+
+print("please enter the width of the rectangle:")
+let width = Int(readLine()!)
+
+let area = height! * width!
+
+print("The calculated area of the rectangle is: \(area)") 
