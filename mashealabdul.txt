@@ -1,0 +1,41 @@
+
+//  main.swift
+//  mashealaa
+//  Assignment1(1)
+//  Created by Masheal abdulrhman on 08/01/1444 AH.
+//
+
+
+
+//
+
+//
+
+import Foundation
+
+var num1 : Int = 0
+var num2 : Int = 0
+
+print("What is the first number?")
+if let userNum1 = readLine()
+{
+    
+    num1 = Int(userNum1) ?? 1
+
+}
+print("What is the secound number?")
+if let userNum2 = readLine() {
+    
+    num2 = Int(userNum2) ?? 1
+    
+
+
+}
+
+
+
+    print("---------------------")
+    print("\(num1) + \(num2) = \(num1  + num2)")
+    print("\(num1) - \(num2) = \(num1  - num2)")
+    print("\(num1) * \(num2) = \(num1  * num2)")
+    print("\(num1) / \(num2) = \(num1  / num2)")
