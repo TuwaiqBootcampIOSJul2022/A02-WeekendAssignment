@@ -1,0 +1,18 @@
+
+import Foundation
+
+
+print("please enter the height of the rectangle:")
+var height = Double(readLine()!)!
+
+print("please enter the width of the rectangle:")
+var width = Double(readLine()!)!
+
+var result : Double = height * width
+
+if height < 0 || width < 0{
+    print("try again with number bigger than 0")
+
+}else{
+    print("The calculated area of the rectangle is: \(result)")
+}

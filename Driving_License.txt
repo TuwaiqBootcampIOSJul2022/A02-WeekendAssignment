@@ -1,0 +1,15 @@
+
+import Foundation
+
+print("please enter your age:")
+var drivingLicense = Int(readLine()!)!
+
+if drivingLicense >= 18 && drivingLicense <= 60 {
+    print("You can get a driver's license")
+    
+}else if drivingLicense < 18 {
+    print("Sorry, you can't get a driver's license")
+    
+}else{
+    print("Sorry, you age more than 60 you missed the licenses")
+}
