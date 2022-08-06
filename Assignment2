@@ -1,7 +1,7 @@
 print("please insert the seconds")
-var time = Double(readLine()!)
-
-if time! == 60{
-    print("60 seconds is 1 minute") }
+var seconds = Int(readLine()!)
+var minute = seconds! / 60
+if seconds! >= 60{
+    print(" \(seconds!) seconds is \(minute) minute") }
 else{
-    print ("seconds is",time!) }
+    print ("Now the second is: ",seconds!) }
