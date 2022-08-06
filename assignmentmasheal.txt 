@@ -1,0 +1,90 @@
+//  mashealaa
+//  Assignment1(1)
+//  Created by Masheal abdulrhman on 08/01/1444 AH.
+//
+
+
+
+//
+
+//
+
+import Foundation
+
+var num1 : Int = 0
+var num2 : Int = 0
+
+print("What is the first number?")
+if let userNum1 = readLine()
+{
+    
+    num1 = Int(userNum1) ?? 1
+
+}
+print("What is the secound number?")
+if let userNum2 = readLine() {
+    
+    num2 = Int(userNum2) ?? 1
+    
+
+
+}
+
+
+
+    print("---------------------")
+    print("\(num1) + \(num2) = \(num1  + num2)")
+    print("\(num1) - \(num2) = \(num1  - num2)")
+    print("\(num1) * \(num2) = \(num1  * num2)")
+    print("\(num1) / \(num2) = \(num1  / num2)")
+
+---------------------------------------------------------------------------
+
+//  main.swift
+//  mashealaa
+//  Assignment 2
+import Foundation        
+        
+        var seconds = 0
+        
+       print("Please inter the seconds")
+        if let enterdSecounds = readLine() {
+        seconds = Int(enterdSecounds) ?? 0
+        }
+        var min = seconds / 60
+        var sec = seconds - (min * 60)
+        print("\(seconds) seconds is \(min) min \(sec) sec")
+-----------------------------------------------------------------------
+import Foundation		
+		
+		// Assignment 3
+		print("Please enter the height of the rectangle :")
+		var height = Int(readLine()!)!
+		print("Please enter the width of the rectangle :")
+		var width = Int(readLine()!)!
+		var result = height * width
+		print("The calculated area of the rectangle is : 
+\(result)")
+
+-------------------------------------------------------------------------
+import Foundation
+        
+        // Assignment 4
+
+var age = 0
+print("Welcome to Driving license  ")
+print("Please Enter your Age : ")
+
+if let userAge = readLine() {
+age = Int(userAge) ?? 0
+}
+
+
+if age >= 18 && age <= 60 {
+print("You can get a driver's license")
+}else if age < 18 {
+print("Sorry, you can't get a driver's license")
+}else {
+print("for your convenience ,you cannot drivr and we are at your service 
+at any time ")
+}
