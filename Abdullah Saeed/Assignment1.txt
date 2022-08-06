@@ -1,0 +1,10 @@
+import Foundation
+
+print("Enter two numbers: ")
+
+if let FirstNum = readLine(), let SecondNum = readLine(), let a = Int(FirstNum), let b = Int(SecondNum) {
+    print("Sum=\(a+b)")
+    print("Sub=\(a-b)")
+    print("Mul=\(a*b)")
+    print("Div=\(a/b)")
+}

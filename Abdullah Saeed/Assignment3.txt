@@ -1,0 +1,8 @@
+import Foundation
+
+print("please enter the height and the width of the rectangle: ")
+
+if let height = readLine(), let width = readLine(), let H = Int(height), let W = Int(width) {
+    print("the area of the rectangle=\(H*W)")
+    
+}
