@@ -1,0 +1,8 @@
+import Foundation
+
+print("Enter number of seconds: ")
+
+if let SecNum = readLine(), let a = Int(SecNum){
+    print("number of minutes=\(a/60)")
+   
+}
