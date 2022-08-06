@@ -1,0 +1,12 @@
+print ("Please enter numbers to perform the required calculations")
+
+print("What is the first number?")
+var number1 = Int(readLine()!)
+
+print("What is the second number?")
+var number2 = Int(readLine()!)
+
+print("\(number1!) + \(number2!) =",number1!+number2!)
+print("\(number1!) - \(number2!) =",number1!-number2!)
+print("\(number1!) * \(number2!) =",number1!*number2!)
+print("\(number1!) / \(number2!) =",number1!/number2!)

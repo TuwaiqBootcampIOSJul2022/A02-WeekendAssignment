@@ -1,0 +1,7 @@
+print("please insert the seconds")
+var time = Double(readLine()!)
+
+if time! == 60{
+    print("60 seconds is 1 minute") }
+else{
+    print ("seconds is",time!) }
