@@ -1,0 +1,18 @@
+
+import Foundation
+
+print("What is the first number?")
+
+var firstNumber = Int(readLine()!)
+
+print("What is the second number?")
+
+var secondNumber = Int(readLine()!)
+
+print("\(firstNumber!) + \(secondNumber!) = \(firstNumber! + secondNumber!)")
+
+print("\(firstNumber!) - \(secondNumber!) = \(firstNumber! - secondNumber!)")
+
+print("\(firstNumber!) * \(secondNumber!) = \(firstNumber! * secondNumber!)")
+
+print("\(firstNumber!) / \(secondNumber!) = \(firstNumber! / secondNumber!)")
