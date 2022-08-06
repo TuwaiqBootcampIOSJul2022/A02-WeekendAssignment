@@ -1,0 +1,90 @@
+//
+//  main.swift
+//  RaneemHW2
+//
+//  Created by Raneem Alkahtani on 05/08/2022.
+//
+
+import Foundation
+
+/* Assignment# 1
+What is the first number?
+5
+What is the second number?
+5
+ 5 + 5 = 10
+
+ 5 - 5 = 0
+     
+ 5 * 5 = 25
+
+ 5 / 5 = 1
+*/
+
+
+print("What is the first number? ", terminator: "")
+
+let Fnumber = readLine()
+
+print("What is the second number? ", terminator: "")
+let Snumber = readLine()
+//sum
+var sum:Int = (Int(Fnumber!) ?? 0) + (Int(Snumber!) ?? 0)
+ print("\(Fnumber!) + \(Snumber!) = \(sum)")
+//sub
+var sub:Int = (Int(Fnumber!) ?? 0) - (Int(Snumber!) ?? 0)
+ print("\(Fnumber!) - \(Snumber!) = \(sub)")
+  //multi
+var multi:Int = (Int(Fnumber!) ?? 0) * (Int(Snumber!) ?? 0)
+ print("\(Fnumber!) * \(Snumber!) = \(multi)")
+//div
+var div:Int = (Int(Fnumber!) ?? 0) / (Int(Snumber!) ?? 0)
+print("\(Fnumber!) / \(Snumber!) = \(div)")
+
+
+
+/* Assignment# 2
+ please insert the seconds
+60
+ 60 seconds is 1 minute
+ */
+print("please insert the seconds: ", terminator: "")
+
+let seconds = readLine()
+
+var resultInMin:Int = ((Int(seconds!) ?? 0)  % 3600) / 60
+print(" \(seconds!) seconds is \(resultInMin) minute")
+
+
+/* Assignment# 3
+ please enter the height of the rectangle:
+ 10
+ please enter the width of the rectangle:
+ 10
+ The calculated area of the rectangle is: 100
+ */
+print("please enter the height of the rectangle: ", terminator: "")
+let height = readLine()
+print("please enter the width of the rectangle: ", terminator: "")
+let width = readLine()
+var area:Int = (Int(height!) ?? 0) * (Int(width!) ?? 0)
+print(" The calculated area of the rectangle is:  \(area)")
+
+/* Assignment# 4
+ If the user's is older or equal to 18 years old "You can get a driver's license"
+ If the user's age is under 18 years old "Sorry, you can't get a driver's license"
+ */
+print("please enter your age: ", terminator: "")
+let age = readLine()
+let ageint = (Int(age!) ?? 0)
+if(ageint >= 18 && ageint <= 60) {
+    print("You can get a driver's license")
+} else if (ageint < 18){
+    print("Sorry, you can't get a driver's license")
+}
+else {
+    print("Sorry, you can't get a driver's license, Take care of yourself :)")
+}
+
+
+
